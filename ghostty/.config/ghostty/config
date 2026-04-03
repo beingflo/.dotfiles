@@ -15,4 +15,8 @@ keybind = cmd+j=goto_split:down
 keybind = cmd+[=previous_tab
 keybind = cmd+]=next_tab
 
+working-directory = home
+window-inherit-working-directory = false
+tab-inherit-working-directory = false
+
 command = /opt/homebrew/bin/fish

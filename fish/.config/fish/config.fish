@@ -5,7 +5,7 @@ end
 
 set fish_greeting
 
-zoxide init fish | source
+zoxide init fish --cmd cd | source
 
 # bun
 set --export BUN_INSTALL "$HOME/.bun"
