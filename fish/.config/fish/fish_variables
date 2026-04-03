@@ -1,0 +1,6 @@
+# This file contains fish universal variable definitions.
+# VERSION: 3.0
+SETUVAR --export NPM_AUTH:Zm1hcmVuZGk6aHprLXFiYzFyd2o4aGNuLUNIWQ\x3d\x3d
+SETUVAR __fish_initialized:4300
+SETUVAR fish_greeting:\x1d
+SETUVAR fish_user_paths:/opt/javascript/ncanode/20\x2e10\x2e0/node/bin\x1e/Users/fmarendi/tmp/binaryen/bin\x1e/Users/fmarendi/tmp/binar\x1e/Users/fmarendi/Library/Python/3\x2e9/bin\x1e/Users/fmarendi/\x2ecargo/bin\x1e/Users/fmarendi/\x2ebun/bin
