@@ -19,4 +19,6 @@ working-directory = home
 window-inherit-working-directory = false
 tab-inherit-working-directory = false
 
+keybind = global:cmd+backquote=toggle_quick_terminal
+
 command = /opt/homebrew/bin/fish
