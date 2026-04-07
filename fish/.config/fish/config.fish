@@ -7,6 +7,8 @@ set fish_greeting
 
 zoxide init fish --cmd cd | source
 
+set -gx EDITOR nvim
+
 # bun
 set --export BUN_INSTALL "$HOME/.bun"
 set --export PATH $BUN_INSTALL/bin $PATH
