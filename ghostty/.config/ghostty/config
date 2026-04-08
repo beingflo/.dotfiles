@@ -12,15 +12,22 @@ keybind = cmd+l=goto_split:right
 keybind = cmd+k=goto_split:up
 keybind = cmd+j=goto_split:down
 
+keybind = cmd+shift+h=new_split:left
+keybind = cmd+shift+l=new_split:right
+keybind = cmd+shift+k=new_split:up
+keybind = cmd+shift+j=new_split:down
+
 keybind = cmd+enter=toggle_split_zoom
 
-keybind = cmd+shift+h=previous_tab
-keybind = cmd+shift+l=next_tab
+keybind = cmd+[=previous_tab
+keybind = cmd+]=next_tab
 
 working-directory = home
 window-inherit-working-directory = false
-tab-inherit-working-directory = true 
+tab-inherit-working-directory = false
+split-inherit-working-directory = true
 
 keybind = global:cmd+backquote=toggle_quick_terminal
 
 command = /opt/homebrew/bin/fish
+
