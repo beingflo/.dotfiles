@@ -9,6 +9,13 @@ zoxide init fish --cmd cd | source
 
 set -gx EDITOR nvim
 
+# CTRL+j/k for up down (arrow keys)
+bind \ck up-or-search
+bind \cj down-or-search
+
+# CTRL+l for accepting suggestion
+bind \cl accept-autosuggestion
+
 # bun
 set --export BUN_INSTALL "$HOME/.bun"
 set --export PATH $BUN_INSTALL/bin $PATH
