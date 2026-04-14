@@ -3,8 +3,7 @@ adjust-cursor-thickness = 200%
 cursor-color = #FFFFFF
 cursor-style-blink = false
 font-size = 15
-macos-titlebar-style = tabs
-macos-window-shadow = false
+macos-window-shadow = true
 split-divider-color = #F0f0f0
 
 keybind = cmd+h=goto_split:left
