@@ -1,5 +1,4 @@
 theme = 0x96f
-adjust-cursor-thickness = 200%
 cursor-color = #FFFFFF
 cursor-style-blink = false
 font-size = 15
