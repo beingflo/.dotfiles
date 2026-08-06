@@ -7,6 +7,8 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "diff_view_style": "unified",
+  "format_on_save": "on",
   "vim": {
     "use_system_clipboard": "never",
   },
@@ -25,6 +27,7 @@
     "model_parameters": [],
   },
   "git_panel": {
+    "entry_primary_click_action": "file_diff",
     "dock": "left",
   },
   "telemetry": {
